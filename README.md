@@ -1,22 +1,39 @@
 # Quality Assessment for Physiological Data 
 
+## Input Data
+
+The input data is too large to be hosted on github, so you can download them from this google drive link. Put the data files with these scripts and they should run together without issue, if you have any questions ask someone at the table, or look for Roza or Rithwik.
+
+https://drive.google.com/drive/folders/1QZLxNATKjnH4BIdK2GHzXrNZ_lVZetUe?usp=drive_link
+
 ## Running the Notebooks
 
-Describe the purpose of each Jupyter notebook included in the project. Provide instructions on how to run them, and what output or result to expect.
+### Notebook 1: BH_10fold_card_model.ipynb
 
-### Notebook 1: [Name or Description]
+This file has a convolutional layers model that is trained on cardiological data, and validated using 10fold validation. This model can be used as a baseline to experiment with and see if its accuracy can be improved upon, by modifying parameters or testing different model architectures.
 
-Explain what Notebook 1 does.
+### Notebook 2: BH_10fold_resp_model.ipynb
 
-### Notebook 2: [Name or Description]
+This notebook has the same model as the previous cardiological model, but instead with respiratory data.
 
-Explain what Notebook 2 does.
+### Notebook 3: card_view_data.ipynb
+
+This notebook can be used to view cardiological data. It currently displays the first 10 files, with blue being good data and red being bad data.
+
+### Notebook 4: resp_view_data.ipynb
+
+This notebook can be used to view the respiratory data.
+
+## Running the MATLAB app
+
+The QA_App_New.mlapp is a MATLAB app that can be downloaded, run, and modified. The purpose of this app is to annotate physiological data.
 
 ## Built With
 
 * [Keras](https://keras.io/)
 * [Jupyter Notebook](https://jupyter.org/)
 * [Python 3](https://www.python.org/)
+* [MATLAB](https://www.mathworks.com/products/matlab.html)
 
 ## Contributing
 
