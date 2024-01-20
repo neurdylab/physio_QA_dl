@@ -2,11 +2,11 @@
 
 ## Input Data
 
-The input data is too large to be hosted on github, so you can download them from this google drive link. Put the data files with these scripts and they should run together without issue, if you have any questions ask someone at the table, or look for Rithwik.
+The input data is too large to be hosted on github, so you can download them from this google drive link. Put the data files with these scripts and they should run together without issue.
 
 https://drive.google.com/drive/folders/1QZLxNATKjnH4BIdK2GHzXrNZ_lVZetUe?usp=drive_link
 
-## Running the Notebooks
+## What is in the Jupyter Notebooks?
 
 ### Notebook 1: BH_10fold_card_model.ipynb
 
