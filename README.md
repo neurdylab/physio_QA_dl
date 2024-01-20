@@ -24,16 +24,11 @@ This notebook can be used to view cardiological data. It currently displays the 
 
 This notebook can be used to view the respiratory data.
 
-## Running the MATLAB app
-
-The QA_App_New.mlapp is a MATLAB app that can be downloaded, run, and modified. The purpose of this app is to annotate physiological data.
-
 ## Built With
 
 * [Keras](https://keras.io/)
 * [Jupyter Notebook](https://jupyter.org/)
 * [Python 3](https://www.python.org/)
-* [MATLAB](https://www.mathworks.com/products/matlab.html)
 
 ## Contributing
 
