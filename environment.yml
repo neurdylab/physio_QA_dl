@@ -1,0 +1,25 @@
+name: physioenv
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - ipykernel=6.25.0
+  - ipython=8.12.2
+  - jupyter=1.0.0
+  - jupyterlab=4.0.8
+  - keras=2.12.0
+  - keras-preprocessing=1.1.2
+  - matplotlib=3.7.2
+  - numpy=1.23.5
+  - pickleshare=0.7.5
+  - pip=23.3.1
+  - python=3.8.18
+  - scikit-learn=1.3.0
+  - scipy=1.10.1
+  - tensorboard=2.12.1
+  - tensorflow=2.12.0
+  - pip:
+      - pyqt5-sip==4.19.18
+      - pyqtchart==5.12
+      - pyqtwebengine==5.12.1
+prefix: /Users/rg/opt/anaconda3/envs/physioenv
